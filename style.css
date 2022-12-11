@@ -1,0 +1,97 @@
+		* {
+			color: #111;
+			text-align: left;
+		}
+		body {
+				font-family: Tahoma, Verdana, sans-serif;
+				background-color: #F5DEB3;
+			}
+		
+		p, th, td, form, caption {
+				font-size: 1.2em; /*18px(1.125em) is roughly around 13-14pt in terms of text size*/
+				text-align: left;
+			}
+		
+		caption{
+			padding-left: 15px;
+		}
+		
+		textarea {
+				background-color: #CD853F;
+				text-align: left;
+		}
+		h1 {
+			background-color: #F4A460;
+			padding-left: 15px;
+		}
+		h3 {
+			background-color: #F5DEB3;
+		}
+		table {
+			background-color: #CD853F;
+			border-collapse: collapse;
+			text-align: left;
+		}
+		th, td {
+			border-bottom: 1px solid #A52A2A;
+			text-align: left;
+			padding: 15px
+		}
+		input {
+			font-size: 1.2em; /*18px is roughly around 13-14pt in terms of text size*/
+			background: #CD853F;
+		}
+
+		iframe {
+			border: 0px;
+			padding-left: 5em;
+		}	
+		.logo {
+				background-color: #F4A460;
+				display: flex;
+				flex-wrap: nowrap;
+		}
+		.navi {
+				background-color: #D2B48C;
+				display: flex;
+				flex-wrap: nowrap;
+			}
+		.homepage {
+				background-color: #F5DEB3;
+		}
+		tr:nth-child(even) {
+			background-color: #DEB887;
+		}
+		.hidden {
+			position:absolute;
+			left:0px;
+			top:-500px;
+			width:1px;
+			height:1px;
+			overflow:hidden;
+		}
+		.naviButton {
+			text-decoration: none;
+			border: 0.2px solid #111;
+			color: #111;
+			background: #cc9999;
+			padding: 5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			border-radius: 1px;
+			font-size: 24px;
+		}
+		.background {
+			background-color: #F5DEB3;
+		}
+		.surTitle {
+			padding-top: 30px;
+			padding-left: 30px;
+		}
+		.aboutus {
+			background-color: #DEB887;
+			padding: 5px;
+			padding-left: 3px;
+			padding-right: 3px;
+			display: inline-block;
+		}
